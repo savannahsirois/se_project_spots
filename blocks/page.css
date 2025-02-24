@@ -2,6 +2,8 @@
   background-color: #fcf5e5;
   min-height: 100vh;
   margin: 136px 80px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500px;
 }
 
 .page__section {
