@@ -34,4 +34,4 @@ Built with modern web technologies, Spots allows users to effortlessly upload, s
 
 This webpage is deployed to Github pages
 
-- Deployment link: https://savannahsirois.github.io/se_project_spots/
+- [Deployment Link](https://savannahsirois.github.io/se_project_spots/)
