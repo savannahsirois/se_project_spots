@@ -30,6 +30,10 @@ Built with modern web technologies, Spots allows users to effortlessly upload, s
 
 ![Mobile Preview](./images/spotsmobile.jpg)
 
+**Video Tour**
+
+![Spots Webpage Tour](https://drive.google.com/file/d/11efWkMSqddWso_U0V3hr2dUPH2g0dj5Z/view?usp=drive_link)
+
 **Deployment**
 
 This webpage is deployed to Github pages
