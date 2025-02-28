@@ -32,7 +32,7 @@ Built with modern web technologies, Spots allows users to effortlessly upload, s
 
 **Video Tour**
 
-![Spots Webpage Tour](https://drive.google.com/file/d/11efWkMSqddWso_U0V3hr2dUPH2g0dj5Z/view?usp=drive_link)
+- [Spots Webpage Tour](https://drive.google.com/file/d/11efWkMSqddWso_U0V3hr2dUPH2g0dj5Z/view?usp=sharing)
 
 **Deployment**
 
