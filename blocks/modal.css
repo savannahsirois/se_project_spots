@@ -54,6 +54,9 @@
   margin: 0 0 32px;
   color: #212121;
   opacity: 70%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
 }
 
 .modal__input {
@@ -64,6 +67,9 @@
   color: #212121;
   border: 1px;
   border-style: solid;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
 }
 
 .modal__submit-button {
@@ -73,6 +79,9 @@
   background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1;
 }
 
 @media screen and (max-width: 627px) {
