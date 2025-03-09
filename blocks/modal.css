@@ -1,0 +1,75 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.modal__opened {
+  visibility: visible;
+}
+
+.modal__container {
+  background: #fff;
+  padding: 32px 50px;
+  max-width: 730px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.modal__close-button {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/close-button.svg);
+  border: none;
+  background-color: #fff;
+  opacity: 40%;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  color: #212121;
+}
+
+.modal__label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 32px;
+  color: #212121;
+  opacity: 70%;
+}
+
+.modal__input {
+  display: block;
+  padding: 16px 12px;
+  border-radius: 8px;
+  opacity: 40%;
+  color: #212121;
+  border: 1px;
+  border-style: solid;
+}
+
+.modal__submit-button {
+  width: 156px;
+  height: 52px;
+  padding: 18px 0;
+  background-color: #212121;
+  color: #fcf5e5;
+  border-radius: 8px;
+}
