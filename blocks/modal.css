@@ -33,7 +33,7 @@
   right: 50px;
   width: 40px;
   height: 40px;
-  background-image: url(/images/close-button.svg);
+  background-image: url("../images/close-button.svg");
   border: none;
   background-color: #fff;
   opacity: 40%;
