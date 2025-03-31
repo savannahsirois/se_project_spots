@@ -91,6 +91,7 @@
   font-size: 16px;
   line-height: 1;
   border: none;
+  transition: background 0.3s;
 }
 
 .modal__submit-button:hover {
