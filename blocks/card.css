@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 320px) {
   .card__image {
     height: 288px;
   }
@@ -87,5 +87,9 @@
   .card__like-button {
     width: 20px;
     height: 18px;
+  }
+
+  .card__delete-button {
+    left: 246px;
   }
 }

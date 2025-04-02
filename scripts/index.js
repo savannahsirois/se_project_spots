@@ -92,7 +92,7 @@ function getCardElement(data) {
   cardImageElement.addEventListener("click", () => {
     openModal(previewModal);
     previewModalImageElement.src = data.link;
-    previewModalImageElement.alt = data.link;
+    previewModalImageElement.alt = data.name;
     previewModalCaptionElement.textContent = data.name;
   });
 
@@ -120,6 +120,8 @@ function handleAddCardSubmit(evt) {
   const inputValues = { name: cardNameInput.value, link: cardLinkInput.value };
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
+  cardNameInput.value = "";
+  cardLinkInput.value = "";
   closeModal(cardModal);
 }
 
